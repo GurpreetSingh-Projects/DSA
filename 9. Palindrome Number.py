@@ -3,7 +3,7 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         string = str(x)
-        r=0
+        r=len(string)
 
         for i, num in enumerate(string):
             if string[i] != string[r-1]:
