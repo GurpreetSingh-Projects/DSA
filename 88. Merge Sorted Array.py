@@ -20,5 +20,6 @@ class Solution:
         while n > 0:
             nums1[last]= nums2[n-1]
             n-=1
+            last-=1
 
         return nums1
